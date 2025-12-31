@@ -1,0 +1,44 @@
+# 🎵 CLI Python Music Player
+
+A simple, lightweight command-line interface (CLI) music player built with **Python** and **Pygame**. It allows you to scan a local directory for MP3 files and control playback directly from the terminal.
+
+## ✨ Features
+
+* **Auto-Discovery:** Automatically detects `.mp3` files in the `music_files` directory.
+* **Menu System:** Simple numbered menu to select tracks.
+* **Playback Controls:** Pause, Resume, and Stop functionality.
+* **Clean UI:** Suppresses the default Pygame startup text for a cleaner look.
+
+## 🛠️ Prerequisites
+
+* **Python 3.x** installed on your system.
+* **Pygame** library.
+
+To install the required library, run:
+
+```bash
+pip install pygame
+```
+## 📂 Project Structure
+```bash
+Project_Folder/
+│
+├── music.py
+├── README.md
+└── music_files/
+    ├── song1.mp3
+    ├── song2.mp3
+    └── ...
+```
+## 🚀 How to Run
+1. Create the directory: Ensure a folder named music_files exists in the same location as your script.
+2. Add Music: Drop your .mp3 files into that folder.
+3. Run the Script:
+```bash
+python music.py
+```
+## 🎮 Controls
+Once a song is playing, use the following keys and press Enter:
+1. Pause	P	Pauses the current audio.
+2. Resume	R	Resumes audio from the paused position.
+3. Stop	S	Stops the music and returns to the main menu.
