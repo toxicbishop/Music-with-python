@@ -16,9 +16,6 @@ To dive straight into the most advanced version (GUI v2):
 # Navigate to the latest version
 cd Music-Player-GUI-version-2
 
-# Run the app
-python app.py
-```
 
 ---
 
